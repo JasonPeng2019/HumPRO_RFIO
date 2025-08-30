@@ -1,0 +1,6 @@
+project guidelines:
+
+1) Make HumPro scheduler compatible
+2) Hum Pro should be able to recieve data it gets
+3) after Hum pro recieves data, make sure it can function the same way
+3) GPIO can. detail the GPIO code

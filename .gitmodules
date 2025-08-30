@@ -1,0 +1,15 @@
+[submodule "Drivers/GPIO"]
+	path = Drivers/GPIO
+	url = https://git.stalkerradar.com/shared/firmware/hal/STMicro/Cortex_M0plus/GPIO.git
+[submodule "Drivers/UART"]
+	path = Drivers/UART
+	url = https://git.stalkerradar.com/shared/firmware/hal/STMicro/Cortex_M0plus/UART.git
+[submodule "Middlewares/Console"]
+	path = Middlewares/Console
+	url = https://git.stalkerradar.com/shared/firmware/middleware/RTOS/Console.git
+[submodule "Middlewares/Scheduler"]
+	path = Middlewares/Scheduler
+	url = https://git.stalkerradar.com/shared/firmware/middleware/RTOS/Scheduler.git
+[submodule "Middlewares/Queue"]
+	path = Middlewares/Queue
+	url = https://git.stalkerradar.com/shared/firmware/middleware/Linked_Lists/Queue.git

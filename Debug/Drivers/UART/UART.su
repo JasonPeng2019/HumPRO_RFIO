@@ -1,0 +1,9 @@
+../Drivers/UART/UART.c:19:8:Init_DMA_UART	24	static
+../Drivers/UART/UART.c:47:9:UART_Transmit	32	static
+../Drivers/UART/UART.c:72:9:UART_Receive	24	static
+../Drivers/UART/UART.c:90:6:HAL_UART_TxCpltCallback	24	static
+../Drivers/UART/UART.c:110:6:HAL_UART_RxCpltCallback	16	static
+../Drivers/UART/UART.c:115:6:HAL_UART_ErrorCallback	24	static
+../Drivers/UART/UART.c:133:6:Disable_UART	16	static
+../Drivers/UART/UART.c:138:6:Enable_UART	16	static
+../Drivers/UART/UART.c:143:13:UART_Tasks	24	static
