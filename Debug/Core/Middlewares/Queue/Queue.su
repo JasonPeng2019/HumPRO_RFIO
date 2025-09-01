@@ -1,0 +1,4 @@
+../Core/Middlewares/Queue/Queue.c:12:6:Prep_Queue	16	static
+../Core/Middlewares/Queue/Queue.c:19:9:Enqueue	24	static
+../Core/Middlewares/Queue/Queue.c:49:8:Dequeue	24	static
+../Core/Middlewares/Queue/Queue.c:76:8:Queue_Peek	24	static

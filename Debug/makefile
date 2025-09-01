@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (10.3-2021.10)
+# Toolchain: GNU Tools for STM32 (13.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -14,6 +14,8 @@ RM := rm -rf
 -include Drivers/GPIO/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
+-include Core/Middlewares/Scheduler/subdir.mk
+-include Core/Middlewares/Queue/subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)
@@ -62,8 +64,8 @@ all: main-build
 main-build: rfio_transceiver.elf secondary-outputs
 
 # Tool invocations
-rfio_transceiver.elf rfio_transceiver.map: $(OBJS) $(USER_OBJS) C:\Users\jason.peng\stm32IDE_code\smart-transceiver-rfio-module-fw\New_TRy\restart\rfio_transceiver\STM32L082KBUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "rfio_transceiver.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"C:\Users\jason.peng\stm32IDE_code\smart-transceiver-rfio-module-fw\New_TRy\restart\rfio_transceiver\STM32L082KBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="rfio_transceiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+rfio_transceiver.elf rfio_transceiver.map: $(OBJS) $(USER_OBJS) C:\Users\14005\Documents\ACI_Work\RFIO\new_smart\rfio_transceiver\STM32L082KBUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "rfio_transceiver.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"C:\Users\14005\Documents\ACI_Work\RFIO\new_smart\rfio_transceiver\STM32L082KBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="rfio_transceiver.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

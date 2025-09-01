@@ -32,8 +32,8 @@ Drivers/UART/UART.o: ../Drivers/UART/UART.c ../Drivers/UART/UART.h \
  ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h \
  ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h \
  ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h \
- C:/Users/jason.peng/stm32IDE_code/smart-transceiver-rfio-module-fw/New_TRy/restart/rfio_transceiver/Middlewares/Queue/Queue.h \
- C:/Users/jason.peng/stm32IDE_code/smart-transceiver-rfio-module-fw/New_TRy/restart/rfio_transceiver/Middlewares/Scheduler/Scheduler.h
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Scheduler/Scheduler.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Queue/Queue.h
 ../Drivers/UART/UART.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:
@@ -69,5 +69,5 @@ Drivers/UART/UART.o: ../Drivers/UART/UART.c ../Drivers/UART/UART.h \
 ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h:
 ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h:
 ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h:
-C:/Users/jason.peng/stm32IDE_code/smart-transceiver-rfio-module-fw/New_TRy/restart/rfio_transceiver/Middlewares/Queue/Queue.h:
-C:/Users/jason.peng/stm32IDE_code/smart-transceiver-rfio-module-fw/New_TRy/restart/rfio_transceiver/Middlewares/Scheduler/Scheduler.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Scheduler/Scheduler.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Queue/Queue.h:
