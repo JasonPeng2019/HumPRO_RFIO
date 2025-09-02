@@ -9,6 +9,8 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include sdk-stm32l0xx/src/subdir.mk
+-include HumPRO_900/subdir.mk
 -include Drivers/UART/subdir.mk
 -include Drivers/STM32L0xx_HAL_Driver/Src/subdir.mk
 -include Drivers/GPIO/subdir.mk
@@ -16,6 +18,7 @@ RM := rm -rf
 -include Core/Src/subdir.mk
 -include Core/Middlewares/Scheduler/subdir.mk
 -include Core/Middlewares/Queue/subdir.mk
+-include Core/App/Src/subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)

@@ -1,0 +1,100 @@
+Core/App/Src/rfio_driver.o: ../Core/App/Src/rfio_driver.c \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/App/Inc/rfio_driver.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/HumPRO_900/HumPRO_900.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/HumPRO_900/HumPRO_900_Receiver.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Drivers/UART/UART.h \
+ ../Core/Inc/main.h ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h \
+ ../Core/Inc/stm32l0xx_hal_conf.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h \
+ ../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h \
+ ../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l082xx.h \
+ ../Drivers/CMSIS/Include/core_cm0plus.h \
+ ../Drivers/CMSIS/Include/cmsis_version.h \
+ ../Drivers/CMSIS/Include/cmsis_compiler.h \
+ ../Drivers/CMSIS/Include/cmsis_gcc.h \
+ ../Drivers/CMSIS/Include/mpu_armv7.h \
+ ../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_exti.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_crc.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_crc_ex.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h \
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Scheduler/Scheduler.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Queue/Queue.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Drivers/GPIO/GPIO.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Queue/Queue.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Scheduler/Scheduler.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/Module_Bus_Driver.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/Module_Bus_Packet.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/Reg_Level_I2C_Slave.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/util.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/MsgQueue.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/IMsgQueue.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/Allocator.h
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/App/Inc/rfio_driver.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/HumPRO_900/HumPRO_900.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/HumPRO_900/HumPRO_900_Receiver.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Drivers/UART/UART.h:
+../Core/Inc/main.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:
+../Core/Inc/stm32l0xx_hal_conf.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h:
+../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h:
+../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l082xx.h:
+../Drivers/CMSIS/Include/core_cm0plus.h:
+../Drivers/CMSIS/Include/cmsis_version.h:
+../Drivers/CMSIS/Include/cmsis_compiler.h:
+../Drivers/CMSIS/Include/cmsis_gcc.h:
+../Drivers/CMSIS/Include/mpu_armv7.h:
+../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_exti.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_cortex.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_crc.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_crc_ex.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ex.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash_ramfunc.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c_ex.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_iwdg.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr_ex.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Scheduler/Scheduler.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Queue/Queue.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Drivers/GPIO/GPIO.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Queue/Queue.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Scheduler/Scheduler.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/Module_Bus_Driver.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/Module_Bus_Packet.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/Reg_Level_I2C_Slave.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/util.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/MsgQueue.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/IMsgQueue.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/Allocator.h:

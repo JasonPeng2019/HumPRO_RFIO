@@ -1,8 +1,8 @@
 /*
  * UART.h
  *
- *  Created on: Jul 16, 2024
- *      Author: devink
+ *  Created on: Aug 2, 2025
+ *      Author: jason.p
  */
 
 #ifndef UART_UART_H_

@@ -1,0 +1,6 @@
+../Core/App/Src/rfio_driver.c:49:6:Init_RFIO	1
+../Core/App/Src/rfio_driver.c:64:6:Init_RFIO_GPIO_Bus	1
+../Core/App/Src/rfio_driver.c:73:6:Send_Latch_States	1
+../Core/App/Src/rfio_driver.c:81:6:rfio_RX_Complete	3
+../Core/App/Src/rfio_driver.c:106:6:Module_Bus_Rx_Callback	2
+../Core/App/Src/rfio_driver.c:119:6:rfio_src_wrapper	1

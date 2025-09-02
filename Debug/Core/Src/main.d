@@ -31,7 +31,23 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim.h \
  ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h \
  ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h \
- ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h
+ ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/App/Inc/rfio_driver.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/HumPRO_900/HumPRO_900.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/HumPRO_900/HumPRO_900_Receiver.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Drivers/UART/UART.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Scheduler/Scheduler.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Queue/Queue.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Drivers/GPIO/GPIO.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Queue/Queue.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Scheduler/Scheduler.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/Module_Bus_Driver.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/Module_Bus_Packet.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/Reg_Level_I2C_Slave.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/util.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/MsgQueue.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/IMsgQueue.h \
+ C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/Allocator.h
 ../Core/Inc/main.h:
 ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:
 ../Core/Inc/stm32l0xx_hal_conf.h:
@@ -66,3 +82,19 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_tim_ex.h:
 ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h:
 ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart_ex.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/App/Inc/rfio_driver.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/HumPRO_900/HumPRO_900.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/HumPRO_900/HumPRO_900_Receiver.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Drivers/UART/UART.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Scheduler/Scheduler.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Queue/Queue.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Drivers/GPIO/GPIO.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Queue/Queue.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/Core/Middlewares/Scheduler/Scheduler.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/Module_Bus_Driver.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/Module_Bus_Packet.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/Reg_Level_I2C_Slave.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/util.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/MsgQueue.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/IMsgQueue.h:
+C:/Users/14005/Documents/ACI_Work/RFIO/new_smart/rfio_transceiver/sdk-stm32l0xx/Inc/Allocator.h:

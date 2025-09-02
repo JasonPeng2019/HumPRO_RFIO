@@ -1,0 +1,9 @@
+../sdk-stm32l0xx/src/Module.c:18:6:Init_Module	2
+../sdk-stm32l0xx/src/Module.c:26:6:Init_Module_Info	12
+../sdk-stm32l0xx/src/Module.c:83:6:Update_Module_Info	4
+../sdk-stm32l0xx/src/Module.c:109:6:Write_Module_Info	2
+../sdk-stm32l0xx/src/Module.c:128:6:Set_Default_Module_Info	2
+../sdk-stm32l0xx/src/Module.c:155:6:DumpModuleInfo	1
+../sdk-stm32l0xx/src/Module.c:178:6:Set_Bootloader_Flag	1
+../sdk-stm32l0xx/src/Module.c:184:6:Write_Bootloader_Version	1
+../sdk-stm32l0xx/src/Module.c:190:6:Write_Firmware_Info_To_EEPROM	1

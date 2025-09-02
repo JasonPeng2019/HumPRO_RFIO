@@ -1,0 +1,5 @@
+../sdk-stm32l0xx/src/FBAllocator.c:43:14:FBAlloc_Create	3
+../sdk-stm32l0xx/src/FBAllocator.c:81:10:FBAlloc_Alloc	3
+../sdk-stm32l0xx/src/FBAllocator.c:106:6:FBAlloc_Free	3
+../sdk-stm32l0xx/src/FBAllocator.c:127:9:FBAlloc_GetNumBlocks	1
+../sdk-stm32l0xx/src/FBAllocator.c:132:9:FBAlloc_GetNumFreeBlocks	1

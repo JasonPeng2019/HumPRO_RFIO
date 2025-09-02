@@ -1,0 +1,5 @@
+../HumPRO_900/HumPRO_900.c:28:6:Init_HumPRO_900	24	static
+../HumPRO_900/HumPRO_900.c:54:6:HumPRO_900_Transmit	24	static
+../HumPRO_900/HumPRO_900.c:69:6:HumPRO_900_Task	56	static
+../HumPRO_900/HumPRO_900.c:245:6:HumPRO_900_RX_Complete	32	static
+../HumPRO_900/HumPRO_900.c:259:6:HumPRO_900_TX_Complete	16	static

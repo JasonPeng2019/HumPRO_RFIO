@@ -1,0 +1,9 @@
+../sdk-stm32l0xx/src/IMsgQueue.c:26:6:IMsgQ_Init	1
+../sdk-stm32l0xx/src/IMsgQueue.c:40:25:GetEmptyNode	3
+../sdk-stm32l0xx/src/IMsgQueue.c:67:20:FreeNode	1
+../sdk-stm32l0xx/src/IMsgQueue.c:79:27:IMsg_Allocate_Packet	1
+../sdk-stm32l0xx/src/IMsgQueue.c:92:6:IMsgQ_Push	3
+../sdk-stm32l0xx/src/IMsgQueue.c:135:20:IMsgQ_Peek	1
+../sdk-stm32l0xx/src/IMsgQueue.c:144:6:IMsgQ_Pop	4
+../sdk-stm32l0xx/src/IMsgQueue.c:178:9:IMsgQ_Get_Num_Packets	1
+../sdk-stm32l0xx/src/IMsgQueue.c:186:9:IMsgQ_Queue_Space_Remaining	1

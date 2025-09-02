@@ -1,8 +1,8 @@
 /*
  * HumPRO_900_Receiver.h
  *
- *  Created on: Jul 18, 2024
- *      Author: devink
+ *  Created on: Jun 19, 2025
+ *      Author: jason.p
  */
 
 #ifndef HUMPRO_900_HUMPRO_900_RECEIVER_H_

@@ -22,6 +22,7 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+Core/App/Src \
 Core/Middlewares/Queue \
 Core/Middlewares/Scheduler \
 Core/Src \
@@ -29,4 +30,6 @@ Core/Startup \
 Drivers/GPIO \
 Drivers/STM32L0xx_HAL_Driver/Src \
 Drivers/UART \
+HumPRO_900 \
+sdk-stm32l0xx/src \
 

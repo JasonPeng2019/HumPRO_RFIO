@@ -1,0 +1,15 @@
+../sdk-stm32l0xx/src/util.c:18:6:PetWatchdog	8	static
+../sdk-stm32l0xx/src/util.c:44:13:store_ptr	24	static
+../sdk-stm32l0xx/src/util.c:56:12:check_ptr	24	static
+../sdk-stm32l0xx/src/util.c:75:12:dec_counter	16	static
+../sdk-stm32l0xx/src/util.c:91:7:dbg_malloc	40	static
+../sdk-stm32l0xx/src/util.c:121:6:dbg_free	32	static
+../sdk-stm32l0xx/src/util.c:215:6:pmdCheckHeapValid	48	static
+../sdk-stm32l0xx/src/util.c:244:9:Get_CRC8	24	static
+../sdk-stm32l0xx/src/util.c:260:10:Get_CRC16_CCITT_On_Bytes	24	static
+../sdk-stm32l0xx/src/util.c:277:10:Get_CRC16_CCITT	24	static
+../sdk-stm32l0xx/src/util.c:295:10:Continue_CRC16_CCITT	24	static
+../sdk-stm32l0xx/src/util.c:309:5:noprintf	8	static
+../sdk-stm32l0xx/src/util.c:313:6:CritSect_Push	16	static,ignoring_inline_asm
+../sdk-stm32l0xx/src/util.c:327:6:CritSect_Pop	16	static,ignoring_inline_asm
+../sdk-stm32l0xx/src/util.c:335:6:LogResetReason	16	static

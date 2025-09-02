@@ -88,8 +88,8 @@ void Error_Handler(void);
 #define UART1_TX_GPIO_Port GPIOB
 #define UART1_RX_Pin GPIO_PIN_7
 #define UART1_RX_GPIO_Port GPIOB
-/* USER CODE BEGIN Private defines */
 
+/* USER CODE BEGIN Private defines */
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

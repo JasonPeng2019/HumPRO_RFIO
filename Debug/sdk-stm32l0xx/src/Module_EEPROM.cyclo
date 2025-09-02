@@ -1,0 +1,5 @@
+../sdk-stm32l0xx/src/Module_EEPROM.c:6:15:Module_Lib_EEPROM_Safe_Write	4
+../sdk-stm32l0xx/src/Module_EEPROM.c:25:15:Module_Lib_EEPROM_Write	7
+../sdk-stm32l0xx/src/Module_EEPROM.c:59:15:Module_Lib_EEPROM_Read	5
+../sdk-stm32l0xx/src/Module_EEPROM.c:79:15:EEPROM_Write	26
+../sdk-stm32l0xx/src/Module_EEPROM.c:183:15:EEPROM_Read	5

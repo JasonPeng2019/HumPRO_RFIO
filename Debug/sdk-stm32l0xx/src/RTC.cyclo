@@ -1,0 +1,6 @@
+../sdk-stm32l0xx/src/RTC.c:19:6:Init_RTC	2
+../sdk-stm32l0xx/src/RTC.c:52:10:Get_Current_Time	5
+../sdk-stm32l0xx/src/RTC.c:103:8:Get_Current_Epoch_Time	1
+../sdk-stm32l0xx/src/RTC.c:122:6:Set_Current_Time	3
+../sdk-stm32l0xx/src/RTC.c:185:6:Request_Controller_Time_Sync	1
+../sdk-stm32l0xx/src/RTC.c:203:6:Force_Controller_Time_Update	1

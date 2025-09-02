@@ -21,7 +21,9 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "rfio_driver.h"
+#include "Scheduler/Scheduler.h"
+#include "Module_Bus_Driver.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -39,7 +41,7 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
- CRC_HandleTypeDef hcrc;
+CRC_HandleTypeDef hcrc;
 
 I2C_HandleTypeDef hi2c1;
 
@@ -55,7 +57,8 @@ DMA_HandleTypeDef hdma_usart1_tx;
 DMA_HandleTypeDef hdma_usart1_rx;
 
 /* USER CODE BEGIN PV */
-
+const Firmware_Version FWVer = {1, 0, 0, 0};
+const uint8_t Primary_Slave_Addr = PRIMARY_SLAVE_ADDR;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -85,6 +88,7 @@ static void MX_USART4_UART_Init(void);
   */
 int main(void)
 {
+
   /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
@@ -117,7 +121,10 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART4_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  Start_Scheduler();
+  Init_RFIO();
+  HAL_TIM_Base_Start_IT(&htim2);
+  HAL_TIM_Base_Start_IT(&htim21);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -125,7 +132,8 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+    Run_Scheduler_Tasks();
+    Module_Bus_Tasks();
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -538,6 +546,9 @@ static void MX_DMA_Init(void)
 static void MX_GPIO_Init(void)
 {
   GPIO_InitTypeDef GPIO_InitStruct = {0};
+  /* USER CODE BEGIN MX_GPIO_Init_1 */
+
+  /* USER CODE END MX_GPIO_Init_1 */
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOA_CLK_ENABLE();
@@ -592,6 +603,9 @@ static void MX_GPIO_Init(void)
   HAL_NVIC_SetPriority(EXTI4_15_IRQn, 1, 0);
   HAL_NVIC_EnableIRQ(EXTI4_15_IRQn);
 
+  /* USER CODE BEGIN MX_GPIO_Init_2 */
+
+  /* USER CODE END MX_GPIO_Init_2 */
 }
 
 /* USER CODE BEGIN 4 */

@@ -1,0 +1,10 @@
+../sdk-stm32l0xx/src/MsgQueue.c:22:6:MsgQ_Init	16	static
+../sdk-stm32l0xx/src/MsgQueue.c:32:24:GetEmptyNode	24	static
+../sdk-stm32l0xx/src/MsgQueue.c:52:13:FreeNode	16	static
+../sdk-stm32l0xx/src/MsgQueue.c:64:6:MsgQ_Push	24	static
+../sdk-stm32l0xx/src/MsgQueue.c:111:6:MsgQ_PushFront	24	static
+../sdk-stm32l0xx/src/MsgQueue.c:159:6:MsgQ_List_Queue_Packets	24	static
+../sdk-stm32l0xx/src/MsgQueue.c:178:20:MsgQ_Pop	24	static
+../sdk-stm32l0xx/src/MsgQueue.c:214:9:MsgQ_Queue_Space_Remaining	16	static
+../sdk-stm32l0xx/src/MsgQueue.c:222:9:MsgQ_Get_Num_Packets	16	static
+../sdk-stm32l0xx/src/MsgQueue.c:230:6:MsgQ_Purge	16	static
